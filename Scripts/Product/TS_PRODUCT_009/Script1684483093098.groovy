@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://uhh-dev.goorita.com/login')
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/p_Product'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/input_Email_email'), 'superadmin222@goorita.com')
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_physical_MuiButtonBase-root MuiIconB_fb2633'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/input_Password_password'), 
-    'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/li_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Delete'))
 
