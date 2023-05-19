@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uhh-dev.goorita.com/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/input_Email_email'), 'superadmin@goorita.com')
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/input_Email_email'), 'superadmin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_UHH Back Office/Page_UHH Back Office/input_Password_password'), 
     '8SQVv/p9jVScEs4/2CZsLw==')
