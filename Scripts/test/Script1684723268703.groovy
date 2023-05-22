@@ -16,14 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/p_Product'))
-
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_physical_MuiButtonBase-root MuiIconB_fb2633'))
-
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/li_Delete'))
-
-WebUI.click(findTestObject('Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Cancel'))
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://imgur.com/upload?beta')
+def filePath = RunConfiguration.getProjectDir() + '/blueband.jpeg'
+WebUI.uploadFileWithDragAndDrop(filePath)
+WebUI.delay(5)
+WebUI.closeBrowser()
 

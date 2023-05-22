@@ -19,11 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/p_Product'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/div_Blog'))
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_physical_MuiButtonBase-root MuiIconB_fb2633'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/div_Blog'))
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/li_Delete'))
+WebUI.navigateToUrl('https://uhh-dev.goorita.com/blog')
 
-WebUI.click(findTestObject('Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Cancel'))
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), 'goorita')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), Keys.chord(
+        Keys.ENTER))
 

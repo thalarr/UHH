@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/p_Product'))
+WebUI.navigateToUrl('https://uhh-dev.goorita.com/login')
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_physical_MuiButtonBase-root MuiIconB_fb2633'))
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/input_Email_email'), 
+    'superadmin@goorita.com')
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/li_Delete'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/input_Password_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Cancel'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/div_Product'))
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/button_New Product'))
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/label_Drop file or click to upload'))
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/test/Page_UHH Back Office/div_Drop file or click to upload'))
 

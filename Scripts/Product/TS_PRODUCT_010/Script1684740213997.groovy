@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delet
 
 WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/li_Delete'))
 
-WebUI.click(findTestObject('Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Cancel'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/product/delete/Page_UHH Back Office/button_Delete'))
 
