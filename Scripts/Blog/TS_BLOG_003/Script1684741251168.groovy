@@ -19,12 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/div_Blog'))
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/p_Blog'))
 
-WebUI.navigateToUrl('https://uhh-dev.goorita.com/blog')
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/button_New Blog'))
 
-WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), 'mengabdi')
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/input_Title_title'), 
+    'test')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), Keys.chord(
-        Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/input_Category_category'), 
+    'news')
+
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/div_ini adalah beritanya gais, wow amazing sekali'), 
+    '<p style="">ini adalah beritanya gais, wow amazing sekali</p>')
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/div_You can photoClick here to choose image'))
+
+WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/create/Page_UHH Back Office/span_Add Blog'))
 

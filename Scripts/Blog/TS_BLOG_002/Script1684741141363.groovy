@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH
 
 WebUI.navigateToUrl('https://uhh-dev.goorita.com/blog')
 
-WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), 'mengabdi')
+WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), 'goorita')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_UHH Back Office/Blog/Page_UHH Back Office/input__r1'), Keys.chord(
         Keys.ENTER))

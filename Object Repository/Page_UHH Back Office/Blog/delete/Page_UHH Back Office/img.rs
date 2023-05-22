@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>afe8ea3b-9df1-4ec4-bff1-f8e3785372e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-dpfpu4-MuiButtonBase-root-MuiIconButton-root > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/table/tbody/tr/td[5]/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>1f866c8e-3fb4-49de-a346-e8781e64bf6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/shape.5a4e628c.svg</value>
+      <webElementGuid>aeccab80-8ae1-4b1c-af9a-219eae4e0f38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page MuiBox-root css-k008qs&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthXl page_wrapper css-19r6kue-MuiContainer-root&quot;]/div[@class=&quot;MuiBox-root css-8atqhb&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-outlined MuiPaper-rounded card_table css-172kgz0-MuiPaper-root&quot;]/div[@class=&quot;MuiTableContainer-root css-rorn0c-MuiTableContainer-root&quot;]/table[@class=&quot;MuiTable-root MuiTable-stickyHeader css-u2tvfy-MuiTable-root&quot;]/tbody[@class=&quot;MuiTableBody-root css-apqrd9-MuiTableBody-root&quot;]/tr[@class=&quot;MuiTableRow-root MuiTableRow-hover css-1mc2026-MuiTableRow-root&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight MuiTableCell-sizeMedium css-1hom88t-MuiTableCell-root&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-dpfpu4-MuiButtonBase-root-MuiIconButton-root&quot;]/img[1]</value>
+      <webElementGuid>41493108-9c1f-4369-958d-431663a3fda0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/table/tbody/tr/td[5]/button/img</value>
+      <webElementGuid>5e5f31cd-b0e7-4969-813b-ae2eb58c6baa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/img</value>
+      <webElementGuid>af56f522-93c1-4388-9b11-20b6cae0eb8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/shape.5a4e628c.svg']</value>
+      <webElementGuid>f769f1b3-d039-43a9-9813-e2276bff1ffa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
