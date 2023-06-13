@@ -37,14 +37,17 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-'Swipe Vertical from top to bottom'
-Mobile.swipe(startX, endY, endX, startY)
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/lihat semua - bazzar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/android.view.View'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/campaign1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/android.view.View (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/btn.keranjang - campaign product list'), 0)
 
-Mobile.tap(findTestObject('Mobile/Order 2 campaign BCA/android.widget.Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/campaign2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/btn.keranjang - campaign product list'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/cart logo'), 0)
 
 if (Mobile.verifyElementNotChecked(findTestObject('Mobile/Order 2 campaign BCA/android.widget.CheckBox (3)'), 4)) {
     Mobile.checkElement(findTestObject('Mobile/Order 2 campaign BCA/android.widget.CheckBox (3)'), 5)
@@ -70,4 +73,12 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/android
 Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/android.widget.RadioButton'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Order 2 campaign BCA/android.view.View (4)'), 0)
+
+Mobile.tap(findTestObject(''), 0)
+
+Mobile.closeApplication()
+
+Mobile.closeApplication()
+
+Mobile.closeApplication()
 
