@@ -27,19 +27,31 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widge
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (1)'), 'Imam hermawan', 0)
 
+'Hide keyboard'
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (2)'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (3)'), '089692099455', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (4)'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (5)'), 'imam@goorita.com', 
     0)
 
+'Hide keyboard'
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (6)'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (7)'), '1391293819139139', 
     0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.Button'), 0)
 
@@ -53,6 +65,9 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widge
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.EditText (9)'), 'tebet jakarta selatan, indonesia', 
     0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.Button (2)'), 0)
 
