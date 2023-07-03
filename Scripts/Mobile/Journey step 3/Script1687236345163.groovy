@@ -19,6 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.goorita.uhhmobile_apps')
 
+'Get Width Height and Store in device_Width variable'
+device_Width = Mobile.getDeviceWidth()
+
+'Get Width Height and Store in device_Width variable'
+device_Height = Mobile.getDeviceHeight()
+
+'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
+int startX = device_Width / 2
+
+'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
+int endX = startX
+
+'Storing the startY value'
+int startY = device_Height * 0.30
+
+'Storing the endY value'
+int endY = device_Height * 0.70
+
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText (1)'), 'Pertalite', 0)
@@ -38,14 +56,21 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widge
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.TextView'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.AutoCompleteTextView - Search'), 'whatsapp', 
+Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.AutoCompleteTextView - Search'), 'IMG-20230521-WA0008', 
     0)
+
+Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.RadioButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.Button (2)'), 0)
+'Swipe Vertical from top to bottom'
+Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.closeApplication()
+if (Mobile.verifyElementNotChecked(findTestObject('Mobile/Journey/Step 3/Sertifikasi CheckBox 1'), 4)) {
+    Mobile.checkElement(findTestObject('Mobile/Journey/Step 3/Sertifikasi CheckBox 1'), 5)
+}
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.Button (2)'), 0)
 

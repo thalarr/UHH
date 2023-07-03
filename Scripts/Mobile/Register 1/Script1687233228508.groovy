@@ -19,14 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.goorita.uhhmobile_apps')
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/Selanjutnya 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (1)'), 0)
+Mobile.tap(findTestObject('Mobile/Register 1/Selanjutnya 2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Mobile/Register 1/Gabung Sekarang'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (1)'), 'jalvar@waleskfb.com', 
-    0)
+Mobile.tap(findTestObject('Mobile/Register 1/Email'), 0)
+
+Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'eoassis@xenakenak.xyz', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (2)'), 0)
 
