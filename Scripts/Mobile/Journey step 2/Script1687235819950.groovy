@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.goorita.uhhmobile_apps')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -53,11 +51,12 @@ Mobile.setText(findTestObject('Mobile/Journey/Step 2/android.widget.EditText (4)
 Mobile.hideKeyboard()
 
 if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox'), 4)) {
-	Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox'), 5)
+    Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox'), 5)
 }
 
-if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox (1)'), 4)) {
-	Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox (1)'), 5)
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox (1)'), 
+    4)) {
+    Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.CheckBox (1)'), 5)
 }
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.EditText (2)'), 0)
@@ -75,6 +74,4 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widge
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 2/android.view.View (3)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 2/android.widget.Button (4)'), 0)
-
-Mobile.closeApplication()
 

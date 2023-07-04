@@ -35,40 +35,49 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText'), 0)
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.CheckBox'), 4)) {
+    Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.CheckBox'), 5)
+}
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText (1)'), 'Pertalite', 0)
+if (Mobile.verifyElementNotChecked(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.CheckBox (1)'), 
+    4)) {
+    Mobile.checkElement(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.CheckBox (1)'), 5)
+}
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.EditText (3)'), 'Pertalite Super', 
+Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText (1)'), 'facebook.com', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText (2)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText (3)'), 'KAB. SUKABUMI', 0)
+
+Mobile.tap(findTestObject('Mobile/Journey/Step 4/android.view.View (3)'), 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Mobile/Journey/Step 4/android.view.View (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText (4)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.EditText (5)'), 'malaysia, singapura', 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.Button'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.view.View'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.view.View (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.Button (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.TextView'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.AutoCompleteTextView - Search'), 'IMG-20230521-WA0008', 
-    0)
-
-Mobile.delay(10)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.ImageView'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.RadioButton'), 0)
+'Hide keyboard'
+Mobile.hideKeyboard()
 
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-if (Mobile.verifyElementNotChecked(findTestObject('Mobile/Journey/Step 3/Sertifikasi CheckBox 1'), 4)) {
-    Mobile.checkElement(findTestObject('Mobile/Journey/Step 3/Sertifikasi CheckBox 1'), 5)
-}
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.widget.Button (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 3/android.widget.Button (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 4/android.view.View (1)'), 0)
+
+Mobile.tap(findTestObject('Mobile/Journey/Step 4/Selanjutnya'), 0)
 

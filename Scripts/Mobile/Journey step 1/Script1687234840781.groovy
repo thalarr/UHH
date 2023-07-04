@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.goorita.uhhmobile_apps')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -93,6 +91,4 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Journey/Step 1/android.w
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Journey/Step 1/android.widget.Button (2)'), 0)
-
-Mobile.closeApplication()
 
