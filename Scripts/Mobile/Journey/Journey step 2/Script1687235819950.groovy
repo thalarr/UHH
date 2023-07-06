@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Mobile/Preparation'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 

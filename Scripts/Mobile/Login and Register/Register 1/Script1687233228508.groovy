@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Mobile/Register 1/Gabung Sekarang'), 0)
 
 Mobile.tap(findTestObject('Mobile/Register 1/Email'), 0)
 
-Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'syaifulanwar@peler.tech', 0)
+Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'bill7844@bentleysmarket.com', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (2)'), 0)
 
