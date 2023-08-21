@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Mobile/Preparation'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/Selanjutnya 1'), 0)
 
 Mobile.tap(findTestObject('Mobile/Register 1/Selanjutnya 2'), 0)
@@ -25,7 +27,7 @@ Mobile.tap(findTestObject('Mobile/Register 1/Gabung Sekarang'), 0)
 
 Mobile.tap(findTestObject('Mobile/Register 1/Email'), 0)
 
-Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'bill7844@bentleysmarket.com', 0)
+Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'skalolaz1@ngab.email', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (2)'), 0)
 
@@ -45,7 +47,7 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widge
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (6)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), 'password', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), 'admin123', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (4)'), 0)
 
