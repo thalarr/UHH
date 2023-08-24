@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Mobile/Register 1/Gabung Sekarang'), 0)
 
 Mobile.tap(findTestObject('Mobile/Register 1/Email'), 0)
 
-Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'skalolaz1@ngab.email', 0)
+Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'jqzvaa9t@unicodeworld.com', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (2)'), 0)
 
@@ -43,7 +43,7 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widge
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), 'Mr Goo', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), 'Mr Goo2', 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (6)'), 0)
 

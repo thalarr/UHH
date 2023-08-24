@@ -47,16 +47,45 @@ Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NIB'), '3211231300007', 0)
 
 Mobile.hideKeyboard()
 
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/NPWP'), 0)
+
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NPWP'), '3211231300008', 0)
+
+Mobile.hideKeyboard()
+
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/JenisProduk'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/Minuman'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/TotalKaryawan1'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/TotalKaryawan1'), '2', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/JumlahArmada'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/JumlahArmada'), '2', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/OmsetUsaha'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/OmsetUsaha'), '20000000', 0)
+
+Mobile.hideKeyboard()
+
 'Swipe Vertical from top to bottom'
 Mobile.delay(4)
 
-Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/MasukkanOutlet'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mobile/Kalkulasi Harga/masukkan outlet'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Swipe Vertical from top to bottom'
-Mobile.delay(4)
+WebUI.callTestCase(findTestCase('Mobile/Kalkulasi Harga/masukkan gudang'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/TambahOutlet4'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mobile/Kalkulasi Harga/masukkan produk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/KalkulasiHarga'), 0, FailureHandling.STOP_ON_FAILURE)
 
