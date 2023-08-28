@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('Login/TS_LOGIN_001'), [:], FailureHandling.STOP
 WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/p_Halal Certification'))
 
 WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input__r3'), 
-    'Mr Goo2')
+    GlobalVariable.AuthNama)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input__r3'), 
     Keys.chord(Keys.ENTER))

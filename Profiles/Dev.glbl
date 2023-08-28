@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MrGoo7'</initValue>
+      <name>AuthNama</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin123'</initValue>
+      <name>AuthPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'asd@gmail.com'</initValue>
+      <name>AuthEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'088969200033'</initValue>
+      <name>AuthNoHp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'300234020444'</initValue>
+      <name>CertNIB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3002342420344'</initValue>
+      <name>CertNPWP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>CertJumlahKaryawan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>CertJumlahArmada</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20000000'</initValue>
+      <name>CertOmsetUsaha</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PT Semeru'</initValue>
+      <name>InfumNamaPerusahaan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Rebo'</initValue>
+      <name>InfumAlamatPerusahaan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'021223113'</initValue>
+      <name>InfumNomorTelepon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Outlet1'</initValue>
+      <name>LokasiProduksi_nama</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0212122332'</initValue>
+      <name>LokasiProduksi_nomorTelepon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI JAKARTA'</initValue>
+      <name>LokasiProduksi_provinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'JAKARTA SELATAN'</initValue>
+      <name>LokasiProduksi_kota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16161'</initValue>
+      <name>LokasiProduksi_kodePos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini adalah deskripsinya'</initValue>
+      <name>LokasiProduksi_deskripsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'021211221'</initValue>
+      <name>LokasiGudang_nomorTelepon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI JAKARTA'</initValue>
+      <name>LokasiGudang_provinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'JAKARTA SELATAN'</initValue>
+      <name>LokasiGudang_kota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16161'</initValue>
+      <name>LokasiGudang_kodepos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini lokasi gudang'</initValue>
+      <name>LokasiGudang_deskripsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Muhamad imam'</initValue>
+      <name>DataKaryawan_namaKaryawan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'320126020188'</initValue>
+      <name>DataKaryawan_KTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'uhh@goorita.com'</initValue>
+      <name>DataKaryawan_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'08989009099'</initValue>
+      <name>DataKaryawan_nomorHandphone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'112113132'</initValue>
+      <name>DataKaryawan_NIP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dodol Sukabumi'</initValue>
+      <name>DataProduk_namaBrand</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'enak pisaaannn'</initValue>
+      <name>DataProduk_profilSensori</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gula merah'</initValue>
+      <name>DataBahan_namaBahan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PT Goorita Mendunia'</initValue>
+      <name>DataBahan_namaProdusen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Rebo'</initValue>
+      <name>DataBahan_namaVendor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2023-08-2029'</initValue>
+      <name>DataBahan_tanggalKadaluwarsa</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

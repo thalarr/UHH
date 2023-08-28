@@ -43,13 +43,13 @@ Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/OnBoardingSertificate'), 0)
 
 Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/NIB'), 0)
 
-Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NIB'), '3211231300007', 0)
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NIB'), GlobalVariable.CertNIB, 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/NPWP'), 0)
 
-Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NPWP'), '3211231300008', 0)
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/NPWP'), GlobalVariable.CertNPWP, 0)
 
 Mobile.hideKeyboard()
 
@@ -62,19 +62,19 @@ Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/Minuman'), 0, FailureHandling.
 
 Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/TotalKaryawan1'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/TotalKaryawan1'), '2', 0)
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/TotalKaryawan1'), GlobalVariable.CertJumlahKaryawan, 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/JumlahArmada'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/JumlahArmada'), '2', 0)
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/JumlahArmada'), GlobalVariable.CertJumlahArmada, 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Mobile/Kalkulasi Harga/OmsetUsaha'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/OmsetUsaha'), '20000000', 0)
+Mobile.setText(findTestObject('Mobile/Kalkulasi Harga/OmsetUsaha'), GlobalVariable.CertOmsetUsaha, 0)
 
 Mobile.hideKeyboard()
 

@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Mobile/Register 1/Gabung Sekarang'), 0)
 
 Mobile.tap(findTestObject('Mobile/Register 1/Email'), 0)
 
-Mobile.setText(findTestObject('Mobile/Register 1/Email'), 'jqzvaa9t@unicodeworld.com', 0)
+Mobile.setText(findTestObject('Mobile/Register 1/Email'), GlobalVariable.AuthEmail, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (2)'), 0)
 
@@ -39,15 +39,15 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (2)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (3)'), '08999999999', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (3)'), GlobalVariable.AuthNoHp, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), 'Mr Goo2', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), GlobalVariable.AuthNama, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (6)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), 'admin123', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), GlobalVariable.AuthPassword, 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (4)'), 0)
 
