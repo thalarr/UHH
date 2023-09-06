@@ -21,13 +21,13 @@ Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/DetailDokumen0'),
 
 Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NamaPerusahaan'), 0)
 
-Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NamaPerusahaan'), '', 0)
+Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NamaPerusahaan'), GlobalVariable.InfumNamaPerusahaan, 0)
 
 Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/AlamatPerusahaan'), 0)
 
-Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/AlamatPerusahaan'), '', 0)
+Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/AlamatPerusahaan'), GlobalVariable.InfumAlamatPerusahaan, 0)
 
 Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NomorTeleponPerusahaan'), 0)
 
-Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NomorTeleponPerusahaan'), '', 0)
+Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/NomorTeleponPerusahaan'), GlobalVariable.InfumNomorTelepon, 0)
 
