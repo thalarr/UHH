@@ -35,19 +35,24 @@ Mobile.delay(30)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.Button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (3)'), 0)
+Mobile.tap(findTestObject('Mobile/Register 1/Pasreb'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (2)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (3)'), GlobalVariable.AuthNoHp, 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (3)'), GlobalVariable.AuthNoHp, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), GlobalVariable.AuthNama, 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (5)'), GlobalVariable.AuthNama, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (6)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), GlobalVariable.AuthPassword, 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Register 1/android.widget.EditText (7)'), GlobalVariable.AuthPassword, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register 1/android.view.View (4)'), 0)
+
+WebUI.callTestCase(findTestCase('Mobile/Kalkulasi Harga/positive'), [:], FailureHandling.STOP_ON_FAILURE)
 

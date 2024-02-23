@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_LoginHappy to see you again, please log_98aa62</name>
+   <tag></tag>
+   <elementGuidId>6f206de6-ec28-4de8-a909-cb8b6e401bfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.page_login_right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d781d09-61d5-4e69-96d2-2c8451a9e618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page_login_right</value>
+      <webElementGuid>d29662c1-fa10-48ce-acf0-23519b55c758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LoginHappy to see you again, please login here.EmailEmailPasswordPasswordRemember meForgot your password ?Login</value>
+      <webElementGuid>b610d312-4658-4692-bca3-82e979a43985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;login_container&quot;]/div[@class=&quot;page_login&quot;]/div[@class=&quot;page_login_right&quot;]</value>
+      <webElementGuid>2cbed1d0-2832-4de3-85e6-f7dc7123163f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]</value>
+      <webElementGuid>a4caff67-2382-42d5-9fb2-7d5f71dcc243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login to manage &amp; monitoring UHH Back Office.'])[1]/following::div[1]</value>
+      <webElementGuid>e429b411-6d02-4e7f-beb2-44c5405afbfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UHH Back Office'])[2]/following::div[1]</value>
+      <webElementGuid>c91cdc88-dba2-4d6b-a0f0-8291c567ed99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>dfd10811-9a47-4ab3-ad6c-f8bb92a6b046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'LoginHappy to see you again, please login here.EmailEmailPasswordPasswordRemember meForgot your password ?Login' or . = 'LoginHappy to see you again, please login here.EmailEmailPasswordPasswordRemember meForgot your password ?Login')]</value>
+      <webElementGuid>ead66f0b-c913-4f59-8014-0ae44af7efbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

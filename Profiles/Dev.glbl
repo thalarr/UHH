@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'MrGoo23'</initValue>
+      <initValue>'MrGoo 44'</initValue>
       <name>AuthNama</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'deejayblitz@hphasesw.com'</initValue>
+      <initValue>'fayoub8@imail5.net'</initValue>
       <name>AuthEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

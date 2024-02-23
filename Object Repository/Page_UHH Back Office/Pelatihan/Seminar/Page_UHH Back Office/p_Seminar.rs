@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Seminar</name>
+   <tag></tag>
+   <elementGuidId>6423da00-d1ec-44a5-b3a0-0a9f7d042f72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiList-root.css-1mk9mw3-MuiList-root > a.sidebar-menu > ul.MuiList-root.MuiList-padding.css-1jutv8v-MuiList-root > div.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-dense.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-dense.MuiListItemButton-gutters.css-1klraep-MuiButtonBase-root-MuiListItemButton-root > div.MuiListItemText-root.MuiListItemText-dense.css-tlelie-MuiListItemText-root > p.MuiTypography-root.MuiTypography-body2.MuiListItemText-primary.css-1s7q9pl-MuiTypography-root</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/div/div/div/nav/a[10]/ul/div[2]/div/div/div/a/ul/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>489708b6-8430-4f8a-938d-14f8134e175b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-1s7q9pl-MuiTypography-root</value>
+      <webElementGuid>fa2d47de-25b9-4947-9ad0-f1ad6ece049f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seminar</value>
+      <webElementGuid>2cdf82c2-80d2-4390-9f63-c2b3f398ce1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page MuiBox-root css-k008qs&quot;]/nav[@class=&quot;MuiBox-root css-1mn6oro&quot;]/div[@class=&quot;MuiDrawer-root MuiDrawer-docked css-12de4fs-MuiDrawer-docked&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper&quot;]/div[@class=&quot;sidebar-menu&quot;]/nav[@class=&quot;MuiList-root MuiList-padding MuiList-dense sidebar css-h4y409-MuiList-root&quot;]/a[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;MuiList-root MuiList-padding css-1jutv8v-MuiList-root&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-pwcg7p-MuiCollapse-root&quot;]/div[@class=&quot;MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper&quot;]/div[@class=&quot;MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;MuiList-root css-1mk9mw3-MuiList-root&quot;]/a[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;MuiList-root MuiList-padding css-1jutv8v-MuiList-root&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-1klraep-MuiButtonBase-root-MuiListItemButton-root&quot;]/div[@class=&quot;MuiListItemText-root MuiListItemText-dense css-tlelie-MuiListItemText-root&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-1s7q9pl-MuiTypography-root&quot;]</value>
+      <webElementGuid>f786137c-ae94-418b-9053-447304f713c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/div/div/div/nav/a[10]/ul/div[2]/div/div/div/a/ul/div/div[2]/p</value>
+      <webElementGuid>5f53ae9d-fffd-47dc-b35a-2a683e579d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jumlah Produk'])[1]/preceding::p[3]</value>
+      <webElementGuid>6fb66d38-c2ff-4602-9eb1-ee6e5e5bbb87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jumlah Order'])[1]/preceding::p[3]</value>
+      <webElementGuid>b46d5558-5912-4d63-a57d-2f1f11baa875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Seminar']/parent::*</value>
+      <webElementGuid>d21f395c-6a90-4ab9-8221-8c29d163214a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/ul/div/div[2]/p</value>
+      <webElementGuid>eddcbd5d-ba7d-4e88-a07c-70b310e1fd7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Seminar' or . = 'Seminar')]</value>
+      <webElementGuid>0341b982-f7f0-46a2-bc9e-6903ae3162db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

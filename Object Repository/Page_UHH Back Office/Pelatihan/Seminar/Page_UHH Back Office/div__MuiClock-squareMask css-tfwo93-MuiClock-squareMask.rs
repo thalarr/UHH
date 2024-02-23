@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__MuiClock-squareMask css-tfwo93-MuiClock-squareMask</name>
+   <tag></tag>
+   <elementGuidId>336c9901-320d-4083-8252-8fd594c4040a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiClock-squareMask.css-tfwo93-MuiClock-squareMask</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>137e63de-f89a-4020-89e9-54928cacda25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiClock-squareMask css-tfwo93-MuiClock-squareMask</value>
+      <webElementGuid>7727df43-1596-4389-86cf-c5c1f4e5c4be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-Popper-root MuiPickersPopper-root css-1anqmj6-MuiPopper-root-MuiPickersPopper-root&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPickersPopper-paper css-gztimk-MuiPaper-root-MuiPickersPopper-paper&quot;]/div[@class=&quot;MuiCalendarOrClockPicker-root css-1vcokmn-MuiCalendarOrClockPicker-root&quot;]/div[@class=&quot;css-epd502&quot;]/div[@class=&quot;MuiClockPicker-root css-1jm66jt-MuiClockPicker-root&quot;]/div[@class=&quot;MuiClock-root css-1j9v0by-MuiClock-root&quot;]/div[@class=&quot;MuiClock-clock css-4f0ona-MuiClock-clock&quot;]/div[@class=&quot;MuiClock-squareMask css-tfwo93-MuiClock-squareMask&quot;]</value>
+      <webElementGuid>04a48e7a-e493-4a17-a31f-448afc808454</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>aab59744-e5fe-4b69-9cb0-1123f84f4803</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -30,16 +30,16 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_UHH Back Office/Confirm ce
 WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/button_detail'))
 
 WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input_Harga Sertifikasi_Harga Sertifikasi'), 
-    'IDR 10,000')
+    'IDR 3,000')
 
 WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input_Pemeriksaan Kehalalan_Pemeriksaan Kehalalan'), 
-    'IDR 20,000')
+    'IDR 3,000')
 
 WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input_Akomodasi_Akomodasi'), 
-    'IDR 30,000')
+    'IDR 2,000')
 
 WebUI.setText(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/input_Biaya Layanan_Biaya Layanan'), 
-    'IDR 40,000')
+    'IDR 2,000')
 
 WebUI.click(findTestObject('Object Repository/Page_UHH Back Office/Confirm certificate/Page_UHH Back Office/span_Submit Harga'))
 
