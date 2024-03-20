@@ -53,12 +53,9 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 
 Mobile.hideKeyboard()
 
-//Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/UploadNIB'), 0)
-
-//Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/android.widget.Button - Documents'), 0)
-
-//Mobile.scrollToText('NIB', FailureHandling.STOP_ON_FAILURE)
-
+Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/UploadNIB'), 0)
+Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/android.widget.Button - Documents'), 0)
+Mobile.scrollToText('NIB', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/NPWP.EditText'), 0)
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_0))
@@ -95,12 +92,9 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_0))
 
 Mobile.hideKeyboard()
 
-//Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/UploadNPWP'), 0)
-
-//Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/android.widget.Button - Documents'), 0)
-
-//Mobile.scrollToText('NPWP', FailureHandling.STOP_ON_FAILURE)
-
+Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/UploadNPWP'), 0)
+Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/android.widget.Button - Documents'), 0)
+Mobile.scrollToText('NPWP', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/Total Karyawan.EditText'), 0)
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
@@ -109,9 +103,7 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_0))
 
 driver.pressKey(new KeyEvent(AndroidKey.ENTER))
 
-
 //Mobile.hideKeyboard()
-
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/Jenis Layanan'), 0)
 
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step1/JenisLayanan.Minuman'), 0)
