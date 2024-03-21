@@ -27,11 +27,11 @@ Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/TambahDataProduk'), 0)
 
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/NamaProduk'), 0)
 
-Mobile.setText(findTestObject('Mobile/Sertifikat/Step2/NamaProduk'), 'Gula Aren', 0)
+Mobile.setText(findTestObject('Mobile/Sertifikat/Step2/NamaProduk'), 'Caramel', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/JenisProduk'), 0)
+Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/JenisProduk2'), 0)
 
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/JenisProduk.value1'), 0, FailureHandling.STOP_ON_FAILURE)
 
@@ -51,7 +51,6 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_5))
 
 driver.pressKey(new KeyEvent(AndroidKey.ENTER))
 
-
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/Kapasitas'), 0)
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
@@ -60,7 +59,6 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_0))
 
 driver.pressKey(new KeyEvent(AndroidKey.ENTER))
 
-
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/Satuan'), 0)
 
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/Satuan.kg'), 0, FailureHandling.STOP_ON_FAILURE)
@@ -68,4 +66,6 @@ Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/Satuan.kg'), 0, FailureHandli
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/Simpan.Botton'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Sertifikat/Step2/SimpanProduk.Botton'), 0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Mobile/Sertifikasi/Step 2/Tambah Lokasi Produksi'), [:], FailureHandling.STOP_ON_FAILURE)
 
