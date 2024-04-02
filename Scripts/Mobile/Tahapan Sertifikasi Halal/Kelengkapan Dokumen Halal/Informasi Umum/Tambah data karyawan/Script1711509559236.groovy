@@ -35,7 +35,7 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Pendaftaran awal/JabatanKaryawan'), 0)
 
-Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Pendaftaran awal/Manager'), 0)
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Pendaftaran awal/Pimpinan'), 0)
 
 Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Pendaftaran awal/EmailKaryawan'), 0)
 

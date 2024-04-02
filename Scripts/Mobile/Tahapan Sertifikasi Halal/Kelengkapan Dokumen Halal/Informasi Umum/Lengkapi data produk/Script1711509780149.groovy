@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('com.goorita.uhhmobile_apps')
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/Produk1'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/PhotoProduk'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/NamaBrand'), 0)
+
+Mobile.setText(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/NamaBrand'), 'Nikmatnesia', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/KlasifikasiProduk'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/LemakdanMinyak'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/RincianProduk'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/Ghee'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/UploadDokumen'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/TambahKomposisiProduk'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/TambahKomposisiProduk'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/TambahKomposisiProduk'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dokumen Halal/Informasi Umum/Tambah Data Produk/TambahKomposisiProduk'), 0)
+
